@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    line-height: 1.6;
+}
+
+/* BUTTONS style */
+.btn {
+    padding: 12px 22px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px; 
+    ;
+}
+.btn-icon {
+    width: 12px;
+    height: 12px;
+    
+}
+
+.primary {
+    background-color: #4f46e5;
+    color: white;
+}
+
+.secondary {
+    background-color: #e5e7eb;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    transform: scale(1.05);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu li {
+    cursor: pointer;
+}
+banner {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(120deg, #1f2937, #111827);
+    color: white;
+}
+
+.banner h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    max-width: 750px;
+    margin: 0 auto 30px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.notes {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 30px;
+    flex: 1;
+}
+
+.icon {
+    width: 52px;
+    height: 52px;
+    margin: 0 auto 18px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.blue { background: rgba(249, 85, 85, 1); }
+.green { background: rgba(249, 85, 85, 1); }
+.purple { background: rgba(249, 85, 85, 1); }
+.orange { background: rgba(249, 85, 85, 1); }
+
+
